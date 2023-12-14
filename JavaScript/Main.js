@@ -34,7 +34,7 @@ var qoutes = [
     }
 
 ]
-function qoutegenerate() {
+function quotegenerate() {
    quotesIndex=(Math.round(Math.random() * quotes.length));
 
     document.getElementById("qoute").innerHTML = quotes[quotesIndex].Quote;
