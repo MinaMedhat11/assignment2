@@ -37,6 +37,6 @@ var qoutes = [
 function quotegenerate() {
    quotesIndex=(Math.round(Math.random() * quotes.length));
 
-    document.getElementById("qoute").innerHTML = quotes[quotesIndex].Quote;
+    document.getElementById("quote").innerHTML = quotes[quotesIndex].Quote;
     document.getElementById("author").innerHTML = quotes[quotesIndex].author;
 }
